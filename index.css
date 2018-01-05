@@ -1,0 +1,11 @@
+body, button {
+    background-color: lightgreen;
+}
+
+.search {
+    width: 320px;
+	margin: 300px auto;
+	padding: 5px;
+	border-radius: 10px;
+    color: white;
+}
