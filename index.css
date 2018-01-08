@@ -1,11 +1,53 @@
-body, button {
-    background-color: lightgreen;
+body {
+    background-color: lightblue;
 }
 
-.search {
+button {
+    margin: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#randomSearch {
+        font-size: 20px;
     width: 320px;
-	margin: 300px auto;
+	margin: 40px auto;
 	padding: 5px;
-	border-radius: 10px;
+}
+
+#searchField {
+    font-size: 30px;
+    width: 320px;
+	margin: 40px auto;
+	padding: 5px;
+}
+
+#articleSection {
+   /*text-align: center;*/
+    font-size: 20px;
+    width: 400px;
+	margin: 10px auto;
+	padding: 5px;
     color: white;
+}
+
+.searchField {
+    text-align: center;
+    font-size: 30px;
+    width: 320px;
+	margin: 100px auto;
+	padding: 5px;
+}
+
+p {
+    font-size: 15px;
+}
+
+li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 1.5em;
+    
 }
