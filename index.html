@@ -1,45 +1,39 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	 <link href="index.css" rel="stylesheet">
-	 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-     <title>Wikipedia Viewer</title>
- </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="index.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+	<title>Wikipedia Viewer</title>
+</head>
 <body style="margin: 0;">
-     
-     
-    <div id="randomSearch" class = "search"> <button> Click here for a random article! </button> </div>
     
-    <h3>OR</h3>
+    <h1>WELCOME TO THE WIKI SEARCHER</h1>
     
-    <div id = "searchField">  <input type="text" name="search" id="searchValue" placeholder="Customize your Wiki"> 
-        <div id="wikiSearch"> 
-            <button> Search Wikipedia </button>
-        </div>
-    </div>
-    
-
-   
-        <ul id="articleSection"> 
-            <div>
-            
-            </div>
-        </ul>  
-        
-        
-
-   
-
-     
-     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<div class="search" id="randomSearch">
+		<button>Click here for a random article!</button>
+	</div>
+	
+	<h3>OR</h3>
+	
+	<div id="searchField">
+		<input id="searchValue" name="search" placeholder="Customize your Wiki" type="text">
+		<div id="wikiSearch">
+			<button>Search Wikipedia</button>
+		</div>
+	</div>
+	
+	<div id="articleSection">
+		<div></div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 	<script src="index.js"></script>
- </body>
- </html>   
+</body>
+</html>
