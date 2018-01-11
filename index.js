@@ -31,7 +31,14 @@ $(document).ready(function() {
 		}); // this line ends ajax call for customize search
 	}); // this line ends custom search button click 
 	
-	$("#randomSearch").click(function() {
+	
+	
+	// $("#randomSearch").click(function() {
+	// 	console.log('random button clicked');
+	// 	window.open('https://en.wikipedia.org/wiki/Special:Random');
+	// }); this is the easier way to get a random webpage
+	
+		$("#randomSearch").click(function() {
 		console.log('random button clicked');
 		$.ajax({
 			type: 'GET',
@@ -39,8 +46,22 @@ $(document).ready(function() {
 			success: function(data) {
 				console.log(data);
 				window.open("https://en.wikipedia.org/wiki/" + data.query.random[0].title);
-			}
-		}); // this line ends ajax call for random search
+		 	}
+		 }); // this line ends ajax call for random search
 	}); // this line ends random search button click
+	
+	
+	
+	// $("#randomSearch").click(function() {
+	// 	console.log('random button clicked');
+	// 	$.ajax({
+	// 		type: 'GET',
+	// 		url: 'https://en.wikipedia.org/w/api.php?action=query&origin=*&format=json&list=random&rnlimit=1',
+	// 		success: function(data) {
+	// 			console.log(data);
+	// 			window.open("https://en.wikipedia.org/wiki/" + data.query.random[0].title);
+	// 		}
+	// 	}); // this line ends ajax call for random search
+	// }); // this line ends random search button click
 	
 }); // this line ends document reaady function
